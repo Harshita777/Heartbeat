@@ -1,12 +1,17 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
 }
+.header {
+  margin-top: 50px;
+}
 
 .heart {
+  justify-content: center;
   position: relative;
   width: 100px;
   height: 100px;
